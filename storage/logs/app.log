@@ -1,0 +1,8 @@
+2023/05/15 22:46:29 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684161989420018000}
+2023/05/15 22:48:03 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684162083098255000}
+2023/05/15 22:50:19 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684162219948335000}
+2023/05/15 22:50:38 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684162238824426000}
+2023/05/15 22:55:29 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684162529658311000}
+2023/05/17 23:18:41 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [Name长度必须至少为3个字符 CreatedBy为必填字段]","time":1684336721960613000}
+2023/05/17 23:26:59 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"svc.CreateTag err: Error 1146 (42S02): Table 'blog_service.tag' doesn't exist","time":1684337219030491000}
+2023/05/22 23:12:56 {"callers":["/Users/liguangliang/terminator/go/blog-service/main.go: 25 main.init.0"],"level":"error","msg":"app.BindAndValid errs: [AppSecret为必填字段 AppKey为必填字段]","time":1684768376730053000}

@@ -9,6 +9,10 @@ App:
   LogSavePath: /Users/liguangliang/terminator/go/blog-service/storage/logs
   LogFileName: app
   LogFileExt: .log
+  UploadSavePath: /Users/liguangliang/terminator/go/blog-service/storage/uploads
+  UploadServerUrl: http://127.0.0.1:8000/static/uploads/
+  UploadImageMaxSize: 5
+  UploadImageAllowExts: .jpg,.jpeg,.png
 Database:
   DBType: mysql
   Username: root  # 填写你的数据库账号
@@ -20,3 +24,7 @@ Database:
   ParseTime: True
   MaxIdleConns: 10
   MaxOpenConns: 30
+JWT:
+  Secret: eddycjy
+  Issuer: blog-service
+  Expire: 7200
